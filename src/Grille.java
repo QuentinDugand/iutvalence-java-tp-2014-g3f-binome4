@@ -1,4 +1,7 @@
+// TODO déplacer la classe dans un paquetage
 
-public class Grille {
+// TODO écrire un commentaire
+public class Grille 
+{
 
 }
