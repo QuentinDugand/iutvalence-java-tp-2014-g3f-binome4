@@ -1,3 +1,6 @@
+import fr.iutvalence.java.tp.rushhour.Grille;
+import fr.iutvalence.java.tp.rushhour.Joueur;
+
 // TODO déplacer la classe dans un paquetage
 
 /**
@@ -5,16 +8,19 @@
  */
 public class RushHour
 {
-	// TODO écrire un commentaire
-	private Grille grille;
-	
-	// TODO réécrire un commentaire (incohérent)
 	/**
 	 * Contient les voitures
 	 */
+	private Grille grille;
+	
+	// TODO réécrire un commentaire (incohérent)
+
 	private Joueur joueur;
 
 	// TODO écrire un commentaire
+	/**
+	 * Inclure la grille et le joueur
+	 */
 	public RushHour()
 	{
 		this.grille = new Grille();
