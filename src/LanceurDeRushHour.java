@@ -1,3 +1,5 @@
+import fr.iutvalence.java.tp.rushhour.RushHour;
+
 // TODO déplacer la classe dans un paquetage
 // TODO écrire un commentaire
 public class LanceurDeRushHour
@@ -6,7 +8,7 @@ public class LanceurDeRushHour
 	public static void main(String[] argo)
 	{
 		// TODO corriger les accents
-		System.out.println("Cr�ation d'une partie de RushHour");
+		System.out.println("Creation d'une partie de RushHour");
 		RushHour partiedeRushHour = new RushHour();
 		System.out.println("Demarrage de la partie");
 		partiedeRushHour.jouer();

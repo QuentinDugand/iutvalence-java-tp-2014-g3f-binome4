@@ -1,5 +1,4 @@
-import fr.iutvalence.java.tp.rushhour.Grille;
-import fr.iutvalence.java.tp.rushhour.Joueur;
+package fr.iutvalence.java.tp.rushhour;
 
 // TODO déplacer la classe dans un paquetage
 
@@ -31,9 +30,11 @@ public class RushHour
 	/**
 	 * permet au jouer de lancer une partie de Rush Hour
 	 */
+	public void creerVoiture{}
+		
+	}
 	public void jouer()
 	{
-
 	}
 
 }

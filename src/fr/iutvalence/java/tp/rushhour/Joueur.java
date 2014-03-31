@@ -2,13 +2,12 @@
 package fr.iutvalence.java.tp.rushhour;
 // TODO écrire un commentaire
 /**
- * Est caractérisé par un nom
- * Déplace les voitures
+ * Est caracterise par un nom
+ * Deplace les voitures
  * Entre un score
  * @author dugandq
  *
  */
 public class Joueur 
 {
-
 }
