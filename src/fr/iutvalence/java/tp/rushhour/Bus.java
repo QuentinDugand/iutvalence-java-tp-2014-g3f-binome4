@@ -1,31 +1,29 @@
 package fr.iutvalence.java.tp.rushhour;
 
-public class Voiture {
-
+public class Bus {
 	/**
-	 * La position de l'avant de la voiture
+	 * La position de l'avant du bus
 	 */
 	private Position positionDeLAvant;
 
 	/**
-	 * booléen indiquant si la voiture est disposée horizontalement (ou
+	 * booléen indi<uant si le bus est disposé horizontalement (ou
 	 * verticalement)
 	 */
 	private final boolean estHorizontale;
 	
 
 	/**
-	 * Le nombre de case qu'occupe la voiture
+	 * Le nombre de case qu'occupe le bus
 	 */
 	private final int taille;
 	
 	
-	public Voiture(Position positionDeLAvant, boolean estHorizontal, int taille, boolean estHorizontale) {
+	public Bus(Position positionDeLAvant, boolean estHorizontal, int taille) {
 	
 		this.positionDeLAvant = positionDeLAvant;
-		this.estHorizontale = estHorizontale;
+		this.estHorizontale = estHorizontal;
 		this.taille = taille;
-		
 	}
 	
 
@@ -58,4 +56,5 @@ public class Voiture {
 	{
 		return false;
 	}
+
 }

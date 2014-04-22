@@ -18,9 +18,4 @@ public class Position
 	public int getNumeroDecolonne() {
 		return numeroDecolonne;
 	}
-	
-	
-	
-	
-
 }

@@ -22,19 +22,18 @@ public class RushHour
 	 */
 	public RushHour()
 	{
-		this.grille = new Grille();
+		this.grille = new Grille(null);
 		this.joueur = new Joueur();
 	}
+}
 
 	// TODO écrire un commentaire plus précis
 	/**
 	 * permet au jouer de lancer une partie de Rush Hour
 	 */
-	public void creerVoiture{}
-		
-	}
-	public void jouer()
-	{
-	}
+	
+private final boolean restriction
 
-}
+
+public void jouer() 
+// TODO Auto-generated method stub

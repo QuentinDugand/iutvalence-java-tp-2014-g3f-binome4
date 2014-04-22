@@ -6,8 +6,23 @@ package fr.iutvalence.java.tp.rushhour;
  * Deplace les voitures
  * Entre un score
  * @author dugandq
+ * @param <Deplacement>
  *
  */
-public class Joueur 
+public class Joueur<Deplacement> 
 {
+	private Object numeroDeColonne;
+	private Object numeroDeLigne;
+
+	public Deplacement obtenirDeplacement()
+	{
+		// obtenir les informations (clavier, ...)
+		// -> aleatoirement au début
+		//creer un objet deplacement
+		// retourner cet objet
+		this.numeroDeLigne;
+		this.numeroDeColonne;
+		
+	}
 }
+
