@@ -16,8 +16,6 @@ package fr.iutvalence.java.tp.rushhour;
  */
 
 
-
-
 public class Grille 
 {
 	public final static int NOMBRE_DE_LIGNES = 6;
